@@ -137,6 +137,10 @@
           width: 100%;
         }
       }
+      .BGC {
+        background-color: lightseagreen;
+        color: white;
+      }
     </style>
   </head>
 
@@ -1923,7 +1927,7 @@
     </div>
     <script>
       function dblclick() {
-        document.body.backgroundColor = "green";
+        document.body.toggleClass("BGC");
         alert("Put Ur Hands Uppp!!!");
       }
     </script>
